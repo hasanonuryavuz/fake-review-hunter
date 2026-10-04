@@ -1,0 +1,93 @@
+{
+  "dataset": "synthetic_template_generated",
+  "seed": 42,
+  "split": "stratified_template_holdout",
+  "train_rows": 8000,
+  "test_rows": 2000,
+  "train_templates": [
+    "0_0",
+    "0_1",
+    "0_10",
+    "0_11",
+    "0_12",
+    "0_13",
+    "0_16",
+    "0_17",
+    "0_19",
+    "0_2",
+    "0_3",
+    "0_5",
+    "0_6",
+    "0_7",
+    "0_8",
+    "0_9",
+    "1_10",
+    "1_11",
+    "1_12",
+    "1_13",
+    "1_14",
+    "1_15",
+    "1_16",
+    "1_17",
+    "1_18",
+    "1_2",
+    "1_3",
+    "1_4",
+    "1_5",
+    "1_6",
+    "1_8",
+    "1_9"
+  ],
+  "test_templates": [
+    "0_14",
+    "0_15",
+    "0_18",
+    "0_4",
+    "1_0",
+    "1_1",
+    "1_19",
+    "1_7"
+  ],
+  "accuracy": 1.0,
+  "classification_report": {
+    "gercek": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1000.0
+    },
+    "sahte": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1000.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2000.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1000,
+      0
+    ],
+    [
+      0,
+      1000
+    ]
+  ],
+  "vocabulary_size": 1232,
+  "python_version": "3.12.14",
+  "sklearn_version": "1.8.0",
+  "limitation": "Sentetik test başarısı gerçek dünyadaki sahtecilik başarısını ölçmez."
+}
